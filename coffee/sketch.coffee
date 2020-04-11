@@ -41,8 +41,7 @@ reset = ->
 	textAlign CENTER, CENTER
 	
 draw = ->
-	#background col[0],col[1],col[2]
-	bg 0
+	background col[0],col[1],col[2]
 	for ball in balls
 		ball.rita()
 		textSize 100
